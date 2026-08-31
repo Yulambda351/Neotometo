@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <link rel="icon" href="../image/favicon.png">
+    <link rel="stylesheet" href="../CSS/daohanglan_mobile.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用协议</title>
+    <style>
+        @font-face {
+            font-family: "Myfont";
+            src: url("../font/fusion-pixel-12px-monospaced-ja.ttf");
+            font-weight: bold;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Myfont", sans-serif;
+            background-color: #838383;
+            background-image: url("../image/zhishaoyuBG.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .whitebg {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 60px;
+            background: rgb(255, 255, 255);
+            padding: 40px;
+        }
+
+        .whitebg .content {
+            width: 100%;
+        }
+
+        .whitebg h1 {
+            text-align: left;
+        }
+
+        hr {
+            border: none;
+            height: 3px;
+            background: #333;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+            .content-wrapper {
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+            }
+
+            .img1 {
+                margin-left: 0;
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+
+            .title {
+                font-size: 50px;
+            }
+
+            .setting-text {
+                font-size: 28px;
+            }
+
+            .hello {
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                height: auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .whitebg {
+                margin: 16px auto;
+                padding: 16px;
+            }
+
+            .whitebg h1 {
+                font-size: 24px;
+            }
+
+            .whitebg p {
+                font-size: 15px;
+                line-height: 1.7;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="box-top">
+            <ul class="top-ui">
+                <li>
+                    <a href="/"><img src="../image/titlelo.png" alt="logo"></a>
+                </li>
+                <li>
+                    <a href="#" class="lang-btn" data-lang="zh">中文</a>
+                </li>
+                <li>
+                    <a href="#" class="lang-btn" data-lang="en">English</a>
+                </li>
+                <li>
+                    <a href="#" class="lang-btn" data-lang="ja">日本語</a>
+                </li>
+                <li>
+                    <a href="https://b23.tv/KfrrSQa">
+                        <img style="margin-top:20px;" src="../image/bilibili-color.png" alt="bilibili">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="whitebg">
+        <div class="content">
+            <h1 data-i18n="terms_title">使用协议</h1>
+            <hr>
+            <p data-i18n="terms_intro_title">■ 关于本使用许可条款 ■</p>
+            <p data-i18n="terms_intro">本使用许可条款，旨在规定下文定义的寝音メト音声库（下称「本音声库」）的使用规则。</p>
+            <br>
+            <p data-i18n="terms_license_title">■ 使用许可 ■</p>
+            <p data-i18n="terms_license_01">著作权人同意，在用户遵守本许可条款的前提下，授权用户使用本音声库。</p>
+            <p data-i18n="terms_license_02">若用户不同意本条款，则不得使用本音声库。</p>
+            <br>
+            <p data-i18n="terms_license_03">无论法人或个人，均可在非商业用途范围内（包含不以营利为目的的同人创作活动），免费使用本音声库。</p>
+            <p data-i18n="terms_license_04">使用本音声库创作的作品（包括演唱、小剧场等二创形式）发表时，无需事前或事后向著作权人及发布方进行联络。</p>
+            <p data-i18n="terms_license_05">本音声库可用于各种风格的演唱，无风格限制。</p>
+            <br>
+            <p data-i18n="terms_credit_title">■ 署名要求 ■</p>
+            <p data-i18n="terms_credit_01">使用本音声库发表作品时，须以适当方式注明虚拟歌姬"寝音メト"。</p>
+            <br>
+            <p data-i18n="terms_prohibit_title">■ 禁止事项 ■</p>
+            <p data-i18n="terms_prohibit_intro">使用本音声库时，严禁从事以下行为：</p>
+            <br>
+            <p data-i18n="terms_prohibit_01">将本音声库或使用其制作的音源用于商业目的（包括但不限于销售、有偿提供、商业推广等）。</p>
+            <p data-i18n="terms_prohibit_02">对本音声库进行修改、逆向工程、提取或二次分发（无论是否经过修改），但本条款另有规定的除外。</p>
+            <p data-i18n="terms_prohibit_03">以恶意诋毁、丑化、侮辱角色形象等方式使用本音声库，或制作、公开严重违背公序良俗的内容。</p>
+            <p data-i18n="terms_prohibit_04">在涉及犯罪等违反伦理与法律规定的作品或网站中，公开使用本音声库制作的音源。</p>
+            <p data-i18n="terms_prohibit_05">伪造本音声库的著作权相关信息。</p>
+            <p data-i18n="terms_prohibit_06">未经管理员许可，擅自创作、发布角色亚种声库。</p>
+            <p data-i18n="terms_prohibit_07">实施其他违反本使用许可条款的行为。</p>
+            <br>
+            <p data-i18n="terms_exception_title">■ 禁止事项的例外情形 ■</p>
+            <p data-i18n="terms_exception_intro">以下行为不属于上述禁止事项范畴：</p>
+            <br>
+            <p data-i18n="terms_exception_01">在创作中使用血腥等暗黑风格的艺术表现，只要不构成对角色本身的恶意攻击或抹黑，不被视为"毁角色、黑角色"。</p>
+            <p data-i18n="terms_exception_02">发表作品时，因作品性质不便直接标注角色名的情况，可灵活处理，但仍建议尽可能体现"寝音メト"的使用信息。</p>
+            <p data-i18n="terms_exception_03">其他著作权人书面明确许可的情形。</p>
+            <br>
+            <p data-i18n="terms_subspecies_title">■ 关于亚种声库 ■</p>
+            <p data-i18n="terms_subspecies_01">如需创造角色亚种声库，必须事先联系管理员获得明确许可。</p>
+            <p data-i18n="terms_subspecies_02">联系方式：Bilibili 紙焼魚P</p>
+            <br>
+            <p data-i18n="terms_disclaimer_title">■ 免责声明 ■</p>
+            <p data-i18n="terms_disclaimer_01">对于因使用本音声库而引发的任何纠纷、损害及损失，本音声库的著作权人及发布方不承担任何责任。请用户在自行承担风险的前提下使用本音声库。</p>
+            <p data-i18n="terms_disclaimer_02">本使用许可条款的内容，可能在未经预告的情况下进行修改。</p>
+        </div>
+    </div>
+    <script>
+        const i18n = {
+            zh: {
+                terms_title: "使用协议",
+                terms_intro_title: "■ 关于本使用许可条款 ■",
+                terms_intro: "本使用许可条款，旨在规定下文定义的寝音メト音声库（下称「本音声库」）的使用规则。",
+                terms_license_title: "■ 使用许可 ■",
+                terms_license_01: "著作权人同意，在用户遵守本许可条款的前提下，授权用户使用本音声库。",
+                terms_license_02: "若用户不同意本条款，则不得使用本音声库。",
+                terms_license_03: "无论法人或个人，均可在非商业用途范围内（包含不以营利为目的的同人创作活动），免费使用本音声库。",
+                terms_license_04: "使用本音声库创作的作品（包括演唱、小剧场等二创形式）发表时，无需事前或事后向著作权人及发布方进行联络。",
+                terms_license_05: "本音声库可用于各种风格的演唱，无风格限制。",
+                terms_credit_title: "■ 署名要求 ■",
+                terms_credit_01: "使用本音声库发表作品时，须以适当方式注明虚拟歌姬\"寝音メト\"。",
+                terms_prohibit_title: "■ 禁止事项 ■",
+                terms_prohibit_intro: "使用本音声库时，严禁从事以下行为：",
+                terms_prohibit_01: "将本音声库或使用其制作的音源用于商业目的（包括但不限于销售、有偿提供、商业推广等）。",
+                terms_prohibit_02: "对本音声库进行修改、逆向工程、提取或二次分发（无论是否经过修改），但本条款另有规定的除外。",
+                terms_prohibit_03: "以恶意诋毁、丑化、侮辱角色形象等方式使用本音声库，或制作、公开严重违背公序良俗的内容。",
+                terms_prohibit_04: "在涉及犯罪等违反伦理与法律规定的作品或网站中，公开使用本音声库制作的音源。",
+                terms_prohibit_05: "伪造本音声库的著作权相关信息。",
+                terms_prohibit_06: "未经管理员许可，擅自创作、发布角色亚种声库。",
+                terms_prohibit_07: "实施其他违反本使用许可条款的行为。",
+                terms_exception_title: "■ 禁止事项的例外情形 ■",
+                terms_exception_intro: "以下行为不属于上述禁止事项范畴：",
+                terms_exception_01: "在创作中使用血腥等暗黑风格的艺术表现，只要不构成对角色本身的恶意攻击或抹黑，不被视为\"毁角色、黑角色\"。",
+                terms_exception_02: "发表作品时，因作品性质不便直接标注角色名的情况，可灵活处理，但仍建议尽可能体现\"寝音メト\"的使用信息。",
+                terms_exception_03: "其他著作权人书面明确许可的情形。",
+                terms_subspecies_title: "■ 关于亚种声库 ■",
+                terms_subspecies_01: "如需创造角色亚种声库，必须事先联系管理员获得明确许可。",
+                terms_subspecies_02: "联系方式：Bilibili 紙焼魚P",
+                terms_disclaimer_title: "■ 免责声明 ■",
+                terms_disclaimer_01: "对于因使用本音声库而引发的任何纠纷、损害及损失，本音声库的著作权人及发布方不承担任何责任。请用户在自行承担风险的前提下使用本音声库。",
+                terms_disclaimer_02: "本使用许可条款的内容，可能在未经预告的情况下进行修改。"
+            },
+            en: {
+                terms_title: "Terms of Use",
+                terms_intro_title: "■ About These Terms of Use ■",
+                terms_intro: "These Terms of Use set forth the rules for using the Neoto Meto Voicebank (hereinafter referred to as \"the Voicebank\") as defined below.",
+                terms_license_title: "■ License ■",
+                terms_license_01: "The copyright holder agrees to grant the user permission to use the Voicebank, provided the user complies with these Terms of Use.",
+                terms_license_02: "If the user does not agree to these Terms, use of the Voicebank is prohibited.",
+                terms_license_03: "Whether an individual or a corporation, the Voicebank may be used free of charge within the scope of non-commercial use (including non-profit doujin/fan creation activities).",
+                terms_license_04: "When publishing works created using the Voicebank (including singing, mini-dramas, and other derivative works), there is no requirement to contact the copyright holder or publisher before or after publication.",
+                terms_license_05: "The Voicebank may be used for singing in various styles without any genre restrictions.",
+                terms_credit_title: "■ Attribution ■",
+                terms_credit_01: "When publishing works using the Voicebank, the virtual singer \"Neoto Meto\" must be appropriately credited.",
+                terms_prohibit_title: "■ Prohibited Actions ■",
+                terms_prohibit_intro: "The following actions are strictly prohibited when using the Voicebank:",
+                terms_prohibit_01: "Using the Voicebank or audio created with it for commercial purposes (including but not limited to sales, paid provision, commercial promotion, etc.).",
+                terms_prohibit_02: "Modifying, reverse engineering, extracting, or redistributing the Voicebank (whether modified or not), except as otherwise provided in these Terms.",
+                terms_prohibit_03: "Using the Voicebank in a way that maliciously slanders, defames, or insults the character image, or creating and publishing content that seriously violates public order and morals.",
+                terms_prohibit_04: "Publicly using audio created with the Voicebank in works or websites involving crimes or other violations of ethics and law.",
+                terms_prohibit_05: "Falsifying copyright-related information of the Voicebank.",
+                terms_prohibit_06: "Creating or publishing derivative/subspecies voicebanks without the administrator's permission.",
+                terms_prohibit_07: "Engaging in any other actions that violate these Terms of Use.",
+                terms_exception_title: "■ Exceptions to Prohibited Actions ■",
+                terms_exception_intro: "The following actions do not fall under the prohibited actions listed above:",
+                terms_exception_01: "Using dark artistic expressions such as gore in creative works is not considered \"character defamation\" as long as it does not constitute a malicious attack or slander against the character itself.",
+                terms_exception_02: "If the nature of the work makes it inconvenient to directly credit the character name, flexible handling is allowed, though it is still recommended to reflect the use of \"Neoto Meto\" as much as possible.",
+                terms_exception_03: "Cases where the copyright holder has given explicit written permission.",
+                terms_subspecies_title: "■ Regarding Subspecies Voicebanks ■",
+                terms_subspecies_01: "To create a subspecies/derivative voicebank, you must contact the administrator in advance and obtain explicit permission.",
+                terms_subspecies_02: "Contact: Bilibili 紙焼魚P",
+                terms_disclaimer_title: "■ Disclaimer ■",
+                terms_disclaimer_01: "The copyright holder and publisher of the Voicebank shall not be held liable for any disputes, damages, or losses arising from the use of the Voicebank. Please use the Voicebank at your own risk.",
+                terms_disclaimer_02: "The contents of these Terms of Use may be subject to change without prior notice."
+            },
+            ja: {
+                terms_title: "利用規約",
+                terms_intro_title: "■ 本利用許諾条項について ■",
+                terms_intro: "本利用許諾条項は、下文で定義する寝音メト音声ライブラリ（以下「本音声ライブラリ」といいます）の利用ルールを定めるものです。",
+                terms_license_title: "■ 利用許諾 ■",
+                terms_license_01: "著作権者は、ユーザーが本許諾条項を遵守することを前提として、本音声ライブラリの使用を許諾します。",
+                terms_license_02: "本利用許諾条項に同意しない場合、本音声ライブラリを使用することはできません。",
+                terms_license_03: "法人・個人を問わず、非商用目的の範囲内（非営利の同人創作活動を含みます）において、本音声ライブラリを無料で使用することができます。",
+                terms_license_04: "本音声ライブラリを使用して創作した作品（歌唱、小劇場等の二次創作を含みます）を発表する際、事前または事後に著作権者および配布元へ連絡する必要はありません。",
+                terms_license_05: "本音声ライブラリは様々な歌唱スタイルでの使用が可能であり、スタイルの制限はありません。",
+                terms_credit_title: "■ クレジット表記 ■",
+                terms_credit_01: "本音声ライブラリを使用した作品を発表する際は、適切な方法でバーチャル歌姫「寝音メト」を明記する必要があります。",
+                terms_prohibit_title: "■ 禁止事項 ■",
+                terms_prohibit_intro: "本音声ライブラリの使用に際し、以下の行為を固く禁じます：",
+                terms_prohibit_01: "本音声ライブラリまたはそれを用いて制作した音源を商業目的（販売、有償提供、商業プロモーション等を含みますが、これらに限られません）で使用すること。",
+                terms_prohibit_02: "本音声ライブラリの改変、リバースエンジニアリング、抽出、または二次配布（改変の有無を問いません）を行うこと。ただし、本条項に別段の定めがある場合を除きます。",
+                terms_prohibit_03: "悪意のある中傷、醜化、キャラクターイメージの侮辱等の方法で本音声ライブラリを使用し、または公序良俗に著しく反するコンテンツを制作・公開すること。",
+                terms_prohibit_04: "犯罪等の倫理・法令に違反する作品やウェブサイトにおいて、本音声ライブラリで制作した音源を公開使用すること。",
+                terms_prohibit_05: "本音声ライブラリの著作権関連情報を偽造すること。",
+                terms_prohibit_06: "管理者の許可なく、キャラクター亜種音声ライブラリを独自に創作・公開すること。",
+                terms_prohibit_07: "その他、本利用許諾条項に違反する行為を行うこと。",
+                terms_exception_title: "■ 禁止事項の例外 ■",
+                terms_exception_intro: "以下の行為は、上記の禁止事項に該当しません：",
+                terms_exception_01: "創作において流血等のダークな芸術表現を用いることは、キャラクター自体への悪意ある攻撃や中傷に当たらない限り、「キャラクター潰し・キャラクターへの悪口」とは見なされません。",
+                terms_exception_02: "作品発表時に、作品の性質上キャラクター名を直接表記しづらい場合は柔軟に対応可能です。ただし、可能な限り「寝音メト」の使用情報を記載することを推奨します。",
+                terms_exception_03: "その他、著作権者が書面により明示的に許諾した場合。",
+                terms_subspecies_title: "■ 亜種音声ライブラリについて ■",
+                terms_subspecies_01: "キャラクター亜種音声ライブラリを作成する場合は、必ず事前に管理者に連絡し、明確な許可を得る必要があります。",
+                terms_subspecies_02: "連絡先：Bilibili 紙焼魚P",
+                terms_disclaimer_title: "■ 免責事項 ■",
+                terms_disclaimer_01: "本音声ライブラリの使用により生じたいかなる紛争、損害および損失についても、本音声ライブラリの著作権者および配布元は一切の責任を負いません。ユーザーは自己の責任において本音声ライブラリを使用してください。",
+                terms_disclaimer_02: "本利用許諾条項の内容は、予告なく変更される場合があります。"
+            }
+        };
+
+        const pageTitles = {
+            zh: "寝音メト--使用协议",
+            en: "Neoto Meto--Terms of Use",
+            ja: "寝音メト--利用規約"
+        };
+
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.textContent = i18n[lang][key];
+                }
+            });
+            document.title = pageTitles[lang];
+            document.documentElement.lang = lang === 'ja' ? 'ja' : lang === 'en' ? 'en' : 'zh-CN';
+            localStorage.setItem('lang', lang);
+        }
+
+        const savedLang = localStorage.getItem('lang') || 'zh';
+        setLanguage(savedLang);
+
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+                const lang = this.getAttribute('data-lang');
+                setLanguage(lang);
+            });
+        });
+    </script>
+</body>
+
+</html>
